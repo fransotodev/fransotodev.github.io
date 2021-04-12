@@ -286,6 +286,7 @@ h2 {
 .block {
   width: 40px;
   min-width: 40px;
+  height: 40px;
 }
 .link {
   transform: rotate(-45deg);
@@ -309,6 +310,7 @@ h2 {
 
 .timeline-item {
   display: inline-flex;
+  align-items: center;
 }
 .align-left {
   align-self: flex-start;
