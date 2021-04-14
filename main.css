@@ -294,6 +294,16 @@ h2 {
   background: linear-gradient(-45deg, #eff6ff 0%, #eff6ff 100%);
 }
 
+.mouse-pointer-container {
+  text-align: right;
+  margin-right: 10px;
+}
+
+.mouse-pointer {
+  position: absolute;
+  width: 40px;
+}
+
 .link {
   transform: rotate(-45deg);
   width: 30px;
@@ -388,7 +398,7 @@ footer {
 
   .projects-container {
     margin: 0;
-    overflow: scroll;
+    overflow-x: scroll;
     align-items: flex-start;
   }
 }
