@@ -167,7 +167,7 @@ h2 {
 .biography {
   text-align: center;
   background-color: #fde68a;
-  padding: 20px;
+  padding: 20px 15%;
 }
 
 .expertise {
@@ -394,6 +394,9 @@ footer {
 @media (max-width: 550px) {
   .timeline {
     align-items: flex-start;
+  }
+  .biography {
+    padding: 20px;
   }
 
   .projects-container {
