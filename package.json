@@ -1,23 +1,6 @@
 {
-  "name": "fransotodev.github.io",
-  "version": "1.0.0",
-  "description": "Personal porfolio website ",
-  "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fransotodev/fransotodev.github.io.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/fransotodev/fransotodev.github.io/issues"
-  },
-  "homepage": "https://github.com/fransotodev/fransotodev.github.io#readme",
-  "dependencies": {},
-  "devDependencies": {
-    "parcel": "^2.0.0-beta.2"
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
   }
 }
